@@ -64,8 +64,6 @@ function merge(leftarr, rightarr)
 rl.question("Size of the array: ",function(n){
     n=parseInt(n);
     array(n);
-
     console.log(mergesort(arr));
-
     rl.close();
 });

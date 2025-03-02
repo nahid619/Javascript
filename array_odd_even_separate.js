@@ -17,7 +17,8 @@ function array(n)
 
 const even=[];
 const odd=[];
-function oddeven(arr){
+function oddeven(arr)
+{
     for(let i=0;i<arr.length;i++)
     {
         if(arr[i]%2 == 0)

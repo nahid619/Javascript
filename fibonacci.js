@@ -6,14 +6,16 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-let fib=[5,6];
+let fib=[0,1];
 
 rl.question('enter the size of the series: ',function(n){
     n=parseInt(n);
-    if(n<2){
+    if(n<2)
+        {
         console.log("enter size bigger than 2.");
     }
-    else{
+    else
+    {
         for(let i=2; i<n; i++)
         {
             fib[i]=fib[i-1] + fib[i-2];
