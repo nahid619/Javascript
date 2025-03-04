@@ -32,16 +32,17 @@ function readLine() {
 function diagonalDifference(arr) {
     // Write your code here
 
-    let n=sqrt(arr.length); 
+    let n=arr.length; 
     let a=0;
     let b=0;
+    let gg;
     for(let i=0; i<n; i++)
     {
-        for(let j=0; j<n; j++)
-        {
-            a=arr[]
-        }
+        a+=arr[i][i];
+        b+=arr[i][n-1-i];
     }
+    gg=Math.abs(a-b);
+    return gg;
 
 }
 
