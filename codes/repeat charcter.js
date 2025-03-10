@@ -13,6 +13,6 @@ function character(str)
     return null;
 }
 
-let a='swiss';
+let a='aabbccde';
 console.log(character(a));
 
